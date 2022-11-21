@@ -27,7 +27,7 @@ const About = () => {
             <p className="text-cyan-700">
               於 2022年 2月初開始在
               <p className="text-orange-500 ">Alpha Camp</p>
-              進修關於<span className="text-green-600">網頁開發</span>的知識
+              進修關於<span className="text-green-600">網頁開發</span>的知識<p>並且於 10月底修業完畢</p>
               <p>
                 目前正致力於尋找：
                 <p>

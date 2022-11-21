@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import About from './pages/About'
+import Skills from './pages/Skills'
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/home" element={<Home />} />
-          <Route path="/" element={<Navigate to="/home" replace />} />
           <Route path="/about" element={<About />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="/" element={<Navigate to="/home" replace />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
