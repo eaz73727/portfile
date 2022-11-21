@@ -17,7 +17,7 @@ const Home = () => {
           <button>
             <Link
               className="text-cyan-700 border-cyan-700 my-6 border-2 py-3 px-6 hover:bg-cyan-700 hover:text-gray-300 font-bold duration-300 flex items-center"
-              to="/project"
+              to="/projects"
             >
               看看我的作品吧！
               <span>

@@ -81,7 +81,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl hover:bg-slate-800 rounded-lg duration-150 hover:text-white">
-          <Link onClick={handleNavClick} to="project">
+          <Link onClick={handleNavClick} to="projects">
             Projects
           </Link>
         </li>
