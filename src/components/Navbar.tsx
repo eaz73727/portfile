@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full h-[60px] bg-gray-300 flex justify-between items-center px-4 text-teal-600 shadow-md">
       <div className="w-[240px] flex items-center justify-center text-4xl font-bold">
-        <Link to="home">WIlson Chen</Link>
+        <Link className='' to="home">WIlson Chen</Link>
       </div>
       {/* menu */}
       <ul className="hidden md:flex ">

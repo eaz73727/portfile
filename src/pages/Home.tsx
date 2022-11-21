@@ -14,8 +14,11 @@ const Home = () => {
           我正在尋找前端/後端工程師職位！
         </h2>
         <div>
-          <button className="text-cyan-700 border-cyan-700 my-6 border-2 py-3 px-6 hover:bg-cyan-700 hover:text-gray-300 font-bold duration-300">
-            <Link className="flex items-center" to="/project">
+          <button>
+            <Link
+              className="text-cyan-700 border-cyan-700 my-6 border-2 py-3 px-6 hover:bg-cyan-700 hover:text-gray-300 font-bold duration-300 flex items-center"
+              to="/project"
+            >
               看看我的作品吧！
               <span>
                 <HiArrowNarrowRight size={20} />
