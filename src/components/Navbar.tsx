@@ -23,7 +23,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="fixed w-full h-[60px] bg-gray-300 flex justify-between items-center px-4 text-teal-600">
+    <nav className="fixed w-full h-[60px] bg-gray-300 flex justify-between items-center px-4 text-teal-600 shadow-md">
       <div className="w-[240px] flex items-center justify-center text-4xl font-bold">
         <Link to="home">WIlson Chen</Link>
       </div>
@@ -62,7 +62,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'opacity-0 absolute'
-            : 'transition-all duration-300 absolute top-0 w-full h-screen bg-stone-200 flex flex-col justify-center items-center'
+            : 'transition-all duration-300 absolute left-0 top-0 w-full h-screen bg-stone-200 flex flex-col justify-center items-center'
         }
       >
         <li className="py-6 text-4xl hover:bg-slate-800 rounded-lg duration-150 hover:text-white">
